@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/css/cadastro_aluno.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="public/js/cadastro-aluno.js"></script>
     <title>Cadastro Aluno</title>
 </head>
 
@@ -24,7 +26,8 @@
         <div class="conteudo_cadastro">
             <div class="div1 cadastro_div" >
                 <label for="txtNome">Nome</label>
-                <input class="input" type="text" name="txtNome" id="txtNome">
+                <input class="input" type="text" name="name" id="name">
+                <div id="validateName"> Nome não pode conter caracteres numericos.</div>
             </div>
 
             <div class="div2 cadastro_div">
